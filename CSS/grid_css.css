@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* grid-template-columns: 5fr 5fr 7fr; Divide it into 5:5:7 ratio */
+    /* grid-template-columns: repeat(9,145.99px); make 9 columns with 145.66 width each */
+    /* We can also use column gap and row gap */
+    /* grid-column-gap: 1rem; 
+    grid-row-gap:1rem; */
+    grid-gap:0.3rem;
+
+}
+
+.item:first-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* same thing can be achived by
+    grid-column:1 / span 3
+    same for rows :) */
+}
+#good{
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.item{
+
+    background-color: rgb(250, 142, 142);
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    
+}

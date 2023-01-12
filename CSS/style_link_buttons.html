@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+    .contain{
+        border:4px solid darkred;
+        background-color: rgb(55, 226, 43);
+        padding: 40px;        
+        width: 600px;
+        margin: 40px auto; /* y(top/bottom) x(right/left)*/
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    /* Preudo selector */
+    a:hover{
+        font-weight: bold;
+        background-color: rgba(0, 255, 255, 0.79);    }
+      
+        
+    /* Preudo selector */
+    a:visited{
+        background-color: blanchedalmond;
+    }
+
+
+    .btn{
+        background-color: aqua;
+        padding:10px;
+        border: none;/*button mein oehle si hi border hota hai*/
+        cursor: pointer;
+        font-size: 14px;
+        color:black;
+        border-radius: 12px;
+        
+    }
+    </style>
+</head>
+
+<body>
+    <div class="contain" id="cont1">
+        <h3>Thisis my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam autem iste facilis voluptatem maxime
+            cupiditate ad aspernatur, quisquam iusto possimus eos rem est dicta, nobis neque. Doloremque nisi placeat
+            unde?</p>
+            <a href="https://google.com" class="btn">Read more</a>
+            <button class="btn">Contact us</button>
+    </div>
+</body>
+
+</html>

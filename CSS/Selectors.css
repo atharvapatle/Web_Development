@@ -1,0 +1,22 @@
+/* Element selectors */
+p{
+    color: yellow;
+}
+
+/* Class selectors */
+.intro{
+    color: wheat;
+    background-color: green;
+}
+
+/* Id selectors */
+#ap{
+    color: red;
+    background-color: aqua;
+}
+
+/* Grouping */
+p,span{
+    color: aqua;
+    background-color: black;
+}

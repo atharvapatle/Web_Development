@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_00</title>
+    <style>
+        body {
+            height: 1000px;
+            padding: 0px;
+            margin: 0px;
+            background: url('./man.jpg');
+        }
+
+        .navbar {
+            background-color: rgb(60, 57, 57);
+            border-radius: 10px;
+            margin-left: 278px;
+            margin-right: 250px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            margin: auto
+                /* to express the hidden properties like backgroung color*/
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            /*to remove list styles like bullets*/
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            position: relative;
+            border: 1px solid white;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            padding: 7px;
+            top: 5px;
+        }
+
+        .navbar li a:hover .navbar a :active {
+            color: red
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+
+        }
+
+        .navbar input {
+
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 136px;
+            height: 20px;
+        }
+
+        .create h1 {
+            text-align: center;
+            position: relative;
+            color: white;
+            padding: 3px 2px;
+            border: 4px solid white;
+            border-radius: 25px;
+            width: 272px;
+            left: 45px;
+            top: 50px;
+
+
+
+        }
+
+        form {
+            /* background-color: rgb(150, 134, 114); */
+            border: 3px solid white;
+            border-radius: 15px;
+            position: relative;
+            position: relative;
+            top: 60px;
+            left: 40px;
+            padding-left: 20px;
+            height: auto;
+            width: 500px;
+        }
+
+        form div {
+            color: white;
+            padding-top: 20px;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+
+        input {
+            border-radius: 13px;
+            padding: 10px;
+
+        }
+
+        button {
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bolder;
+            background-color: rgb(90, 83, 83);
+            color: wheat;
+        }
+
+        div img {
+            color: white;
+            /* border: 1px solid white; */
+            position: relative;
+            /* padding:15px 18px; */
+            bottom: 53px;
+            width: 57px;
+        }
+
+        #logoname{
+            padding-bottom: 28px;
+            border-radius: 10px;;
+            color: white;
+            position: relative;
+            bottom: 87px;
+            font-size: 25px;
+            left:35px;
+        }
+        #gymm{
+            color: white;
+            position: relative;
+            bottom: 58px;
+            right:53px;
+            padding: 4px 4px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Services</a> </li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a> </li>
+                <li><a href="#">Log in</a> </li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div id="logo">
+        <img src="./logo.jpg" alt="" sizes="fit">
+        <span id="logoname">Atharva</span>
+        <span id="gymm">Gym</span>
+    </div>
+    <div class="create">
+        <h1>Create Account</h1>
+    </div>
+    <form action="backend.php" class="mYform">
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="myName">
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="myEmail">
+        </div>
+        <div>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" name="date" id="myBirth">
+        </div>
+        <div>
+            <label for="mobile">Mobile no. : </label>
+            <input type="number" name="mobile" id="myNumber">
+        </div>
+        <div>
+            <button> Sign up</button>
+        </div>
+    </form>
+</body>
+
+</html>

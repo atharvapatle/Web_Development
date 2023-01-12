@@ -1,0 +1,13 @@
+.container{
+    background-color: aqua;
+    border: 4px solid blue;
+    /* padding: 10px;
+    padding-left: 40px; */
+    /* margin-left: 40px;
+    margin-right: 800px;
+    margin-bottom: 40px; */
+    margin: 25px;
+    padding: 23px 26px 40px 30px;  /*top right bottom left*/ /*same for margin*/
+    margin-right: 400px;
+
+}

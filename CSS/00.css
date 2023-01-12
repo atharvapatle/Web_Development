@@ -1,0 +1,11 @@
+.age,#name{
+    /* text-decoration: solid; */
+    transform-origin: 0.3cm;
+    transform-style: preserve-3d;
+    transition-duration: 0.4s;
+    transition-delay: 0.5s;
+   
+    color: blanchedalmond;
+    border-color: aqua;
+border-style:dotted;
+background-color: black;}

@@ -1,0 +1,48 @@
+#there{
+    background-color: yellow;
+    height: 20px;
+    width: 200px;
+    border: 4px solid green
+    /* we can write both */
+    /* border-style: double;
+    border-radius: 10px;
+    border-color: blue; */
+
+}
+
+#here{
+    background-color: yellow;
+    height: 20px;
+    width: 200px;
+    border-top: 4px solid red;
+    border-bottom: 4px solid green;
+    border-right: 4px solid black;
+    border-left: 4px solid blue;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+
+#where{
+    
+    color:red;
+    font-weight: bold;
+    height: 400px;
+    width: 500px;
+    border:2px solid red;
+    background-image: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* to fill image properly */
+    background-size: cover;
+    /* if repeating */
+    background-repeat: no-repeat;
+}
+
+span{
+    background-color: green;
+    height: 10px;
+    width: 200px;
+    border-style: double;
+    border-color: blue;
+
+}

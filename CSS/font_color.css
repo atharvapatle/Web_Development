@@ -1,0 +1,12 @@
+p{
+    font-family:'Zen Dots' ;
+    font-size: 50px;
+    line-height: 0.03em;
+    font-weight: lighter;
+    font-style: bold; 
+    color: tomato ;
+    /* Hax color */
+    color:#ffffff;
+    /* RBG color */
+    color:rgb(239, 31, 201);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./gn.css">
+</head>
+
+<body>
+    <h2>This is form</h2>
+    <form action="backend.php">
+        <label for="name"> Name : </label>
+        <div><input type="text" name="myName" id="name"></div><br>
+        <div id="roll"> Roll: <input type="text"></div><br>
+        <div> Date: <input type="date" name="myDate"></div><br>
+        <div> Email: <input type="email" name="myEmail"></div><br>
+        <div> Age : <input type="number"> </div><br>
+        <div> Choose option : Are you happy? Yes <input type="radio" name="ruHappy"> No <input type="radio"
+                name="ruHappy"></div><br>
+        <label for="gay"> Are you : </label>
+        <div><input type="checkbox" checked id="gay"></div>
+        <div><br>
+            <label for="txtarea">Write about yourself! </label>
+            <div><textarea name="mytext" cols="30" rows="10" id="txtarea"></textarea></div>
+            <div>
+                <label for="chiku">Select: </label><br>
+                <select name="atharva" id="chiku">
+                    <option value="mana">Manav</option><br>
+                    <option value="manu" selected>Manus</option>
+                </select>
+                <div><input type="submit" value="Submit form"></div><br>
+                <div><input type="reset" value="Reset"></div><br><br>
+            </div>
+    </form>
+</body>
+
+</html>
