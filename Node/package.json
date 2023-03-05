@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.21"
   }
 }
