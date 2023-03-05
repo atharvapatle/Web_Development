@@ -1,0 +1,2 @@
+# node modules will be ignored and not added in the github repo.
+/node_modules
