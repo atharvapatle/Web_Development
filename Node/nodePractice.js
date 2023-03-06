@@ -1,40 +1,9 @@
-const fs=require("fs");
+const http=require('http');
 
-//folder making
-// fs.mkdir('Atharva',(err)=>{
-// if(err) throw err;
-// console.log('Folder created');
-// })
+const server=http.createServer((req,res)=>{
 
-//file making
-// fs.writeFile('./Atharva/bio.txt',"I am SuperHuman",(err)=>{
-//     console.log("Files Created");
-// })
-
-//Append
-// fs.appendFile('./Atharva/bio.txt',"and a son of god.",(err)=>{
-//     console.log("Appended succesfully!");
-// })
-
-// Reading the file
-// fs.readFile('./Atharva/bio.txt','utf-8',(err,data)=>{
-//     if(err) console.log('It is an error');
-//     console.log(data);
-//     console.log("run succesfully");
-// })
-
-//RENAME
-// fs.rename('./Atharva/bio.txt','./Atharva/myBio.txt',(err)=>{
-// console.log('OK!');
-// })
-
-//DELETION //File
-fs.unlink("./Atharva/myBio.txt",(err)=>{
-    console.log('DONE');
 })
 
-//Folder
-fs.rmdir('./Atharva',(err)=>{
-    console.log('Done');
+server.listen(4000,()=>{
+    console.log('Server is listening on 4000');
 })
-
