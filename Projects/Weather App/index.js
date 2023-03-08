@@ -6,7 +6,7 @@ const homeFile = fs.readFileSync("home.html", "utf-8");
 
 const server = http.createServer((req, res) => {
     if (req.url == "/") {
-        requests('https://google.com/foo/bar', { streaming })
+        requests('https://api.openweathermap.org/data/2.5/weather?q=Pune&appid=4aa283b0dccf7e6841822edf502bc0ae', { streaming })
             .on('data', function (chunk) {
                 console.log(chunk)
             })
