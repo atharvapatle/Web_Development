@@ -1,6 +1,14 @@
 const http = require('http')
 
 const server = http.createServer((req, res) => {
+  if(req.url==='/'){
+    res.end("Welcome Home My Boy");
+  }else if (req.url==='/about'){
+    res.end("This is about page");
+  }else if(req.url==='/contacts'){
+    res.end("These are our contacts");
+  }else res.end("Error 404!");
+
   //   if (req.url === '/') {
   //     res.end('Welcome to our home page')
   //   }
@@ -18,17 +26,7 @@ const server = http.createServer((req, res) => {
   //  IF YOU GET ERRORS WHILE USING ABOVE SETUP,
   // SWITCH TO IF, ELSE IF, ELSE (BELOW)
   // WE COVER THE CAUSE, LATER IN EXPRESS TUTORIAL
-  if (req.url === '/') {
-    res.end('Welcome to our home page')
-  } else if (req.url === '/about') {
-    res.end('Here is our short history')
-  } else {
-    res.end(`
-    <h1>Oops!</h1>
-    <p>We can't seem to find the page you are looking for</p>
-    <a href="/">back home</a>
-    `)
-  }
+  
 })
 
 server.listen(5000)
