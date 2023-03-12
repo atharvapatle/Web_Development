@@ -6,11 +6,26 @@
 
 // Finally, we start the server using the app.listen() method, which listens for incoming requests on port 3000. When a client makes a request to the root path, the server will respond with "Hello World!".
 
+const path=require('path');
 const express=require('express');
 const app=express();
 
+const staticPath=path.join(__dirname,'../public');
+// to use html,css files // for static content
+// app.use(express.static(staticPath));
+//to set view engine
+app.set('view engine',"hbs");
+
+//dynamic coontent with hbs
+app.get("/",(req,res)=>{
+    res.render("index");
+});
 app.get("/",(req,res)=>{
     res.send("Hello World");
+});
+
+app.get("/about",(req,res)=>{
+    res.send("Welcome to about page!");
 });
 
 app.listen(3000,()=>{
