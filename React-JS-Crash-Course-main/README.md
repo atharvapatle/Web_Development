@@ -1,30 +1,20 @@
-# React-JS-Crash-Course
+E-commerce Website using React, Bootstrap, and Express
 
-[<img alt="React JS Crash Course | Build Portfolio Website With React JS" width="100%" src="https://github.com/tech2etc/Youtube-Tutorials/blob/main/React%20JS%20Crash%20Course%20Build%20Portfolio%20Website%20With%20React%20JS.PNG?raw=true" />](https://youtu.be/0h2b4ftbZcU/)
+This is an E-commerce website project built with React and Bootstrap for the frontend, and Express for the backend. The website provides user authentication, cart functionality, and order processing features. The database management is handled with MongoDB. The website is designed with responsive layouts to enhance user experience on different devices.
 
-## About Course
-Hi everyone, welcome to our brand new react js crash course. This is a complete beginner-friendly course specially created for new web developers, who just started to learn about react js.
+Features
+•	User authentication
+•	Cart functionality
+•	Order processing
+•	Responsive design
+•	Optimized performance
+Technologies Used
+•	React
+•	Bootstrap
+•	Express
+•	MongoDB
 
-In this course, we will build and deploy a complete react js portfolio website. 
+Contributing:
+Contributions to this project are welcome. To contribute, please follow the standard GitHub flow and submit a pull request.
 
-## What is React JS
-Without wasting your time, let's see what react js actually is...
-- React is a JavaScript library for building user-friendly interfaces.
-- It is Used to build single-page applications.
-- Also, it allows us to create reusable UI components.
 
-## What you are going to learn
-In this course, we are going to learn
-- React ES6 Basic Syntax
-- React Render HTML
-- React JSX essential Syntax
-- How to use React Components, Class, Props, Events
-- React Conditionals
-- React Router
-- React Hooks such as - useState, useEffect, useCallback, Custom Hooks
-- Most importantly we will learn the Best File & Folder Structure you should follow..... and much more.
-
-By building our react js portfolio we will try to cover all these topics.
-
-## Setup
-- run ```npm i && npm start```
