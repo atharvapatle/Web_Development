@@ -16,6 +16,9 @@ connectDB();
 ///middlewares
 app.use(morgan("dev"));
 
+//routes
+app.use('./api/v1,auth',authRoutes);
+
 app.get('/' ,(req,res)=>{
 res.send("Hello! Atharav is here");
 res.end();
