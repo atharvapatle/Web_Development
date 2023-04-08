@@ -11,7 +11,7 @@ export const registerController = async (req, res) => {
     const { name, email, password, phone, address, answer } = req.body;
     // A series of validation checks are performed to ensure that all the required fields are present in the req.body object. If any required field is missing, the function sends an error message to the client and terminates execution.
     //validations
-    if (!name) {
+    if (!name)  {
       return res.send({ error: "Name is Required" });
     }
     if (!email) {

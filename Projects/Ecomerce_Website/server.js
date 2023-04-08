@@ -16,7 +16,7 @@ connectDB();
 ///middlewares
 app.use(morgan("dev"));
 
-//routes
+//routes 
 app.use('./api/v1,auth',authRoutes);
 
 app.get('/' ,(req,res)=>{

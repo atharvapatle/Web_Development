@@ -6,7 +6,7 @@ const fs=require("fs");
 // console.log('Folder created');
 // })
 
-//file making
+//File making
 // fs.writeFile('./Atharva/bio.txt',"I am SuperHuman",(err)=>{
 //     console.log("Files Created");
 // })
